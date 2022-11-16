@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Validación de Tarjeta</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <body>
+    <header>
+    <div>
+      <h1 id="title">VALIDA CARD APP MÓVIL</h1></div>
+    <div><p> PARA REALIZAR PAGOS EN PLATAFORMAS DE APPS MÓVILES DEBERÁ VALIDAR SU TARJETA </p></div>
+    </header>
+
+<main> 
+  <div class="contenedor"></div>
+    
+<main class="main-contenedor">
+      <img src="https://99r3l.csb.app/chip.png" class="logochip" alt="logochip" width="50px" height="40px"> 
+      <div class="card">
+      <label id="numerotarjetaimg" class="cardnumber"></label>
+      <input type="text" id="idnumberCreditCard" class="classnumberCreditCard" maxlength="16" placeholder="INGRESE NUMERO DE TARJETA" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');">
+      
+        <button id ="idbotonvalidar" class="idbotonvalidar" value="Validar">VALIDAR TARJETA</button>
+      </div>
+</main>
+  </main>
+
+        <div>
+        
+        </div>
+
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
