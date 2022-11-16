@@ -28,4 +28,8 @@ Construir aplicación web que le permita al usuario validar el número de su tar
 
 **VI. Imagen Prototipo Final**
 
+<<<<<<< HEAD
 ![prototipo Final](https://github.com/Caarolinaa/DEV002-card-validation/blob/071e19e6ce6f1b2720698e930080b926dd25bb9b/PrototipoFinal.png)
+=======
+![prototipo Final](https://github.com/Caarolinaa/DEV002-card-validation/blob/071e19e6ce6f1b2720698e930080b926dd25bb9b/PrototipoFinal.png)
+>>>>>>> 8901fa0f5bfd04894af2db8010126943a13004e1
