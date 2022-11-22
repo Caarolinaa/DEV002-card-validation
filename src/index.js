@@ -11,12 +11,12 @@ import validator from './validator.js';
 
         let cardNumber = validator.isValid(cr);
         if (cardNumber == true){
-            //no es valido.
+            //es valido.
             alert("Excelente! Su tarjeta es válida");
         }
         else { 
-            //valido. mostrar un mensaje
-            alert("Su tarjeta es inválida");
+            //invalido. mostrar un mensaje
+            alert("Su tarjeta es inválida, intente nuevamente");
         }
 
     })
@@ -24,7 +24,7 @@ import validator from './validator.js';
     let Clonarnumero = document.getElementById("idnumberCreditCard");
     Clonarnumero.addEventListener("keyup", function(){ //función copia el valor del input al label
         let txt = document.getElementById("idnumberCreditCard").value; //declarar variable contenga valor del texto al ingresar numero
-        let mask = validator.maskify(txt); //borrar algo
+        let mask = validator.maskify(txt); 
         document.getElementById("numerotarjetaimg").innerHTML = mask; //asignar a etiqueta el valor
          
       
